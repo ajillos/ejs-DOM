@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Recorrer árbol DOM</title>
+</head>
+<body>
+  <h1> CICLOS DE INFORMÁTICA EN EL IES INFANTA ELENA (Galapagar) </h1>
+  <h2> Mañana </h2>
+   <div id="mañana">
+    <a href="#infoGS" style="text-decoration: none; color: black;"><h3 onclick="mostrarGS()">&nbsp;&nbsp;&nbsp;&nbsp; Grado Superior </h3>
+        <ul id="lista">
+            <li>DAW1</li>
+            <li>DAW2</li>
+            <li>DAM1</li>
+            <li>DAM2</li>
+        </ul>
+    <a href="#infoGM" style="text-decoration: none; color: black;"><h3 onclick="mostrarGM()"> &nbsp;&nbsp;&nbsp;&nbsp;Grado Medio </h3></a>
+       
+        <ul id="lista">
+            <li>SMR_DUAL</li>
+            <li>SMR1</li>
+            <li>SMR2</li>
+        </ul>
+     </div>
+   
+  <h2> Tarde </h2>
+  <div id="tarde">
+    <a href="#infoGMT" style="text-decoration: none; color: black;"><h3 onclick="mostrarGMT()">&nbsp;&nbsp;&nbsp;&nbsp; Grado Medio </h3>
+    <ul id="lista">
+        <li>SMR1</li>
+        <li>SMR2</li>
+    </ul>
+    <a href="#infoGST" style="text-decoration: none; color: black;"><h3 onclick="mostrarGST()"> &nbsp;&nbsp;&nbsp;&nbsp;Grado Superior </h3>
+    <ul id="lista">
+        <li>ASIR1</li>
+        <li>ASIR2</li>
+    </ul>
+  </div>
+  <div id="infoGM" style="display: none;">
+    <p>Has elegido Grado Medio que se imparte en turno de mañana</p>
+    <p>Los nº de grupos que se imparten son 3: SMRDUAL, SMR1 y SMR2</p>
+  </div>
+  <div id="infoGS" style="display: none;">
+    <p>Has elegido Grado Superior que se imparte en turno de mañana</p>
+    <p>Los nº de grupos que se imparten son 4: DAW1, DAW2, DAM1 y DAM2</p>
+  </div>
+  <div id="infoGST" style="display: none;">
+    <p>Has elegido Grado Superior que se imparte en turno de tarde</p>
+    <p>Los nº de grupos que se imparten son 2: ASIR1, ASIR2</p>
+  </div>
+  <div id="infoGMT" style="display: none;">
+    <p>Has elegido Grado Superior que se imparte en turno de tarde</p>
+    <p>Los nº de grupos que se imparten son 2: SMR1, SMR2</p>
+  </div>
+  <script type="text/javascript" src="../js/ejercicio05.js"></script>
+</body>
+
+</html>
